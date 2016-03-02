@@ -1,0 +1,33 @@
+{
+  "name": "rufio-filter-markdown",
+  "version": "1.0.0",
+  "description": "A rufio filter for markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && mocha"
+  },
+  "keywords": [
+    "rufio",
+    "filter",
+    "markdown",
+    "remarkable"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "devDependencies": {
+    "happiness": "^5.5.0",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/rufio-filter-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesleytodd/rufio-filter-markdown/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/rufio-filter-markdown",
+  "dependencies": {
+    "remarkable": "^1.6.2",
+    "through2": "^2.0.1"
+  }
+}
